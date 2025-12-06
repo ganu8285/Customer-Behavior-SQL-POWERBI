@@ -33,9 +33,9 @@ Without Step 3: You reward whoever makes the most money.
 
 With Step 3: You reward whoever makes the most money while keeping customers happy. This encourages long-term growth over short-term gains.
 
-4. Portfolio/Resume Value If you or the person "sharing the repo" built this, it is a very strong portfolio piece. It demonstrates full-stack understanding:
+4. Portfolio/Resume Value If you or the person "sharing the repo" built this, it is a very strong portfolio piece. It demonstrates Data-Analyst understanding:
 
-Backend skills (SQL/Data Engineering)
+dadtabase skills (SQL/Data Engineering)
 
 Analytical skills (DAX/Modeling)
 
