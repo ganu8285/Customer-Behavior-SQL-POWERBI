@@ -40,7 +40,7 @@ Data Analyst aspirants who want to build a strong Portfolio Project for intervie
 Anyone learning Python, SQL, and Power BI
 Professionals preparing for interviews in Data Analytics, Data Science or Product Analytics roles
 
-dadtabase skills (SQL/Data Engineering)
+database skills (SQL/Data Engineering)
 
 Analytical skills (DAX/Modeling)
 
