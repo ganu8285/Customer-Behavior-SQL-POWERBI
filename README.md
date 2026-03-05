@@ -1,47 +1,24 @@
-Project Summary
+PROJECT SUMMARY
+Behavioral Revenue Intelligence Dashboard
+SQL · DAX · Power BI · Data Intelligence
 
-Objective: To transition from basic, isolated KPI reporting to a holistic behavioral analysis tool. The goal is to understand not just what the revenue numbers are, but who is driving them and how satisfied the customers are.
+Objective
+This project transitions from basic, isolated KPI reporting to a holistic behavioral analysis tool. The goal is to understand not just what the revenue numbers are, but who is driving them — and how satisfied customers are as a result.
 
-The Tech Stack:
+Technology Stack
+SQL handles the heavy lifting: extracting complex data and shaping core logic before it reaches the visualization layer, ensuring a lean and robust backend. DAX within Power BI powers dynamic calculations and advanced measures that correlate different metrics, enabling drill-downs and cross-filtering across the model.
 
-SQL: Used for the "heavy lifting"—extracting complex data and shaping the core logic before it reaches the visualization layer.
+Analytical Workflow
+The project follows a three-layer approach that integrates financial, human, and experiential data into a single unified view.
+The first layer is Financial Data, which establishes the hard revenue and sales numbers — the quantitative foundation for all downstream analysis. The second layer is Employee Data, which connects those revenue figures to specific human actions, answering the critical question: who is driving the numbers? The third layer is Sentiment and Customer Feedback, which acts as a quality-control filter, ensuring that high revenue is not being generated at the expense of customer satisfaction.
 
-DAX (Power BI): Used for dynamic calculations and advanced measures to correlate different metrics (likely enabling drill-downs and cross-filtering).
+Dashboard Outcome
+The result is a unified dashboard that correlates Revenue, Employee Behavior, and Customer Sentiment. This allows stakeholders to identify high-performing employees who generate sustainable, high-quality revenue — rather than short-term gains that erode customer relationships over time.
 
-The Workflow (The "Secret Sauce"):
-
-Financial Data: Establishes the hard numbers (revenue/sales baseline).
-
-Employee Data: Connects the numbers to specific human actions (the "who").
-
-Sentiment/Feedback: Acts as a quality control filter (the "how"), ensuring high revenue isn't coming at the cost of unhappy customers.
-
-The Outcome: A dashboard that correlates Revenue + Employee Behavior + Customer Sentiment. This allows stakeholders to pinpoint high-performing employees who generate sustainable, high-quality revenue rather than just quick sales.
-
-My Thoughts on the Project
-This is an excellent example of Data Intelligence rather than just Data Analytics. Here is why this approach stands out:
-
-1. It Breaks Down Silos Most organizations keep financial data (ERP), employee data (HRIS), and customer feedback (CRM/Survey tools) separate. By merging these three, the project solves a common "blind spot" in management—knowing if a top salesperson is actually burning out customers to hit their quota.
-
-2. "SQL for Logic, DAX for Measures" is a Best Practice Using SQL to shape the data before it gets to Power BI is a sign of a mature developer.
-
-Why it works: It keeps the Power BI model lean and fast. If you try to do complex data shaping purely in Power Qery or DAX, the report often becomes slow and hard to maintain. Moving that complexity to SQL ensures the "backend" is robust.
-
-3. The "Quality Filter" is Strategic Genius Adding Step 3 (Sentiment Scores) is what elevates this from a Sales Report to a Strategy Tool.
-
-Without Step 3: You reward whoever makes the most money.
-
-With Step 3: You reward whoever makes the most money while keeping customers happy. This encourages long-term growth over short-term gains.
-
-4. Portfolio/Resume Value If you or the person "sharing the repo" built this, it is a very strong portfolio piece. It demonstrates Data-Analyst understanding:
-5. This project is perfect for:
-
-Data Analyst aspirants who want to build a strong Portfolio Project for interviews and LinkedIn
-Anyone learning Python, SQL, and Power BI
-Professionals preparing for interviews in Data Analytics, Data Science or Product Analytics roles
-
-database skills (SQL/Data Engineering)
-
-Analytical skills (DAX/Modeling)
-
-Business Acumen (Understanding that revenue needs context)
+Key Strategic Insights
+Breaking Down Organizational Silos
+Most organizations store financial data, employee data, and customer feedback in separate, disconnected systems. By merging all three, this project eliminates a common management blind spot: determining whether a top salesperson is driving sustainable growth or burning out customers to hit their quota.
+"SQL for Logic, DAX for Measures" — A Best-Practice Architecture
+Using SQL to shape data before it reaches Power BI is a hallmark of mature data engineering. This approach keeps the Power BI model lean and performant. Attempting complex data shaping purely in Power Query or DAX typically results in slow, hard-to-maintain reports. Delegating that complexity to SQL ensures a robust, scalable backend.
+The Quality Filter — A Strategic Differentiator
+Without the sentiment layer, the dashboard rewards whoever makes the most money, regardless of how it was achieved. With it, the dashboard rewards whoever makes the most money while keeping customers happy — incentivizing long-term growth over short-term gains. This is what elevates the project from a sales report to a genuine strategy tool.
